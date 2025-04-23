@@ -1,9 +1,9 @@
 # Surgical-skill-prediction-using-temporal-CNN-and-neural-ODE-network
 Co-author: Jason Au
 
-Code for training a temporal convolution network and neural ODE network model on the JIGSAW surgical dataset to predict the skill levels of surgeons using the DaVinci surgical system. The model is trained on the tooltips kinematics data and predicts suturing, knot-tying, and needle passing skill levels with accuracies of 97%, 100%, and 80% respectively. Skill levels are either expert or non-expert.
+The purpose of this study was to explore the ability of neural Ordinary Differential Equations (neural ODEs) to model the changing dynamics of data. A temporal convolution neural network (TCN) with a neural ODE block was implemented to predict the skill level (expert vs non-expert) of surgeons given the time-series kinematics of their tooltip poses using the Da Vinci Robotic system from the JIGSAW dataset. The model achieved 100% test accuracy on the knot tying data, 97% on the suturing data, and 80% on the needle-passing data. 
 
-Model is also available to download.
+Model is available in this repository. 
 
 Dataset:
 https://cirl.lcsr.jhu.edu/research/hmm/datasets/jigsaws_release/

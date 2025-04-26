@@ -9,3 +9,11 @@ Dataset:
 https://cirl.lcsr.jhu.edu/research/hmm/datasets/jigsaws_release/
 
 
+# How to run
+Can activate program packages by activating virtual environment however that is done in in your IDE. 
+
+If you want to install packages on your local device, run:
+> pip install -r requirements.txt
+
+There are 2 model training files you can run. You can run main.py, whose main model training function is TCNWithNeuralODE_model(), or you can run the code blocks in main.ipynb in order.  
+

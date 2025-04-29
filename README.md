@@ -11,7 +11,7 @@ https://cirl.lcsr.jhu.edu/research/hmm/datasets/jigsaws_release/
 <br>
 
 ## Installing packages
-Can activate program packages by activating virtual environment however that is done in in your IDE. 
+Can install packages within a virtual environment by activating the virtual environment, however that is done in in your IDE. 
 
 If you want to install packages on your local device, run:
 ```

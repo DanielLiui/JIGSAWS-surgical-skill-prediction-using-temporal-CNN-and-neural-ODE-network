@@ -9,3 +9,20 @@ Dataset:
 https://cirl.lcsr.jhu.edu/research/hmm/datasets/jigsaws_release/
 
 
+## Installing packages
+Can activate program packages by activating virtual environment however that is done in in your IDE. 
+
+If you want to install packages on your local device, run:
+> pip install -r requirements.txt
+
+
+## Downloading dataset
+- Download the dataset from https://cirl.lcsr.jhu.edu/research/hmm/datasets/jigsaws_release/ 
+- Make sure the root folder is called 'dataset'. If not, rename it to 'dataset' as the code makes references from this folder.
+- The root folder contains folders called Experimental_setup, Knot_Tying, Needle_Passing, and Suturing that contains data for each suturing task. Within each folder is a readme.txt file that explains what kind of data each folder and file contains. Please read this. This project will just use the kinematic data and meta files to extract skill levels.
+
+
+## How to run
+There are 2 model training files you can run. You can run main.py, whose main model training function is TCNWithNeuralODE_model(), or you can run the code blocks in main.ipynb in order.  
+
+
